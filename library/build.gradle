@@ -1,0 +1,13 @@
+apply plugin: 'com.android.model.library'
+
+model {
+    android {
+        compileSdkVersion 24
+        buildToolsVersion "24.0.1"
+
+        defaultConfig {
+            minSdkVersion.apiLevel 14
+            targetSdkVersion.apiLevel 24
+        }
+    }
+}

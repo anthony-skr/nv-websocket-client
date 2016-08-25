@@ -3118,6 +3118,7 @@ public class WebSocket
      */
     private void startThreads()
     {
+        /*
         ReadingThread readingThread = new ReadingThread(this);
         WritingThread writingThread = new WritingThread(this);
 
@@ -3129,6 +3130,7 @@ public class WebSocket
 
         readingThread.start();
         writingThread.start();
+        */
     }
 
 
@@ -3145,6 +3147,7 @@ public class WebSocket
      */
     private void stopThreads(long closeDelay)
     {
+        /*
         ReadingThread readingThread;
         WritingThread writingThread;
 
@@ -3165,7 +3168,7 @@ public class WebSocket
         if (writingThread != null)
         {
             writingThread.requestStop();
-        }
+        }*/
     }
 
 

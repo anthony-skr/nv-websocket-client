@@ -35,7 +35,7 @@ import java.util.TimerTask;
 import com.neovisionaries.ws.client.StateManager.CloseInitiator;
 
 
-class ReadingThread extends Thread
+public class ReadingThread extends Thread
 {
     private final WebSocket mWebSocket;
     private boolean mStopRequested;
@@ -323,7 +323,7 @@ class ReadingThread extends Thread
     }
 
 
-    private WebSocketFrame readFrame()
+    public WebSocketFrame readFrame()
     {
         WebSocketFrame frame = null;
         WebSocketException wse = null;
